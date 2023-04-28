@@ -1,0 +1,29 @@
+/* instagram */
+
+.instagram__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin: 30px;
+}
+
+.instagram__container img {
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+@media screen and (min-width: 600px) {
+  .instagram__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 40px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .instagram__container {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 70px;
+  }
+}
